@@ -6,7 +6,6 @@
 	--TabBorder: #323232;
 	--TabBackground:#525252;
 	--ButtonBackground: linear-gradient(180deg, #626262, #474747);
-
 }
 
 img {
@@ -68,7 +67,7 @@ spriteIcon, .SpriteIcon {
 
 #ModsOnlineModule .Grid {
 	gap: 1.25em;
-	padding: 0.25em 0.5em 0.25em 0.5em;
+	padding: 0.25em 0.5em;
 	place-content: center;
 	place-items: center;
 }
@@ -79,7 +78,7 @@ spriteIcon, .SpriteIcon {
 }
 
 #CoreStatsModule .Content {
-	padding: 0.5em 0 0.5em 0;
+	padding: 0.5em 0;
 }
 
 #MedalsModule ul {
@@ -99,15 +98,7 @@ spriteIcon, .SpriteIcon {
 	box-shadow: 0 6px 4px -4px var(--DefaultRedColor);
 }
 
-#SubNavigator li spriteIcon {
-	filter: grayscale(1);
-}
-
-button spriteIcon, .ButtonLike spriteIcon {
-	filter: grayscale(1);
-}
-
-.Record .Stats spriteIcon {
+#SubNavigator li spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon {
 	filter: grayscale(1);
 }
 
