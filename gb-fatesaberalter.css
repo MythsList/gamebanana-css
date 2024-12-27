@@ -1,8 +1,13 @@
-/*
-Made by MythsList
-I don't care if you use it,
-my uberstyle sucks, so is my code organization.
-*/
+:root {
+	--BodyBackground: #171717 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--BodyWrapperBackground: #222222 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--NavPaneBackgroundColor: #222222;
+	--InputBackgroundColor: #474747;
+	--TabBorder: #323232;
+	--TabBackground:#525252;
+	--ButtonBackground: linear-gradient(180deg, #626262, #474747);
+
+}
 
 img {
 	filter: grayscale(1);
@@ -162,15 +167,4 @@ img.guard_image {
 
 article.RichText {
 	text-align: justify;
-}
-
-:root {
-	--BodyBackground: #171717 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
-	--BodyWrapperBackground: #222222 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
-	--NavPaneBackgroundColor: #222222;
-	--InputBackgroundColor: #474747;
-	--TabBorder: #323232;
-	--TabBackground:#525252;
-	--ButtonBackground: linear-gradient(180deg, #626262, #474747);
-
 }
