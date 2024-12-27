@@ -1,0 +1,176 @@
+/*
+Made by MythsList
+I don't care if you use it,
+my uberstyle sucks, so is my code organization.
+*/
+
+img {
+	filter: grayscale(1);
+}
+
+a, .Linklike {
+	color: var(--DefaultGreenColor);
+}
+
+.PageModule>h3 {
+	font-size: 1.55em;
+	font-family: var(--ModuleTitleFontFamily);
+}
+
+.Record .PreviewImage { 
+	object-fit: contain;
+	object-position: center;
+}
+
+.Avatar.Online:after {
+        box-shadow: 0 0 0.75em var(--DefaultGreenColor);
+}
+
+.MemberLink indicator.Online {
+	box-shadow: 0 0 0.15em var(--DefaultGreenColor);
+}
+
+.UserTitle {
+	box-shadow: 0 0 0 0.125em var(--DefaultRedColor),0 0 0.75em var(--DefaultRedColor);
+	color: var(--DefaultRedColor);
+	background: #474747;
+	border-radius: 0.5em;
+	padding: 0.25em 0;
+	margin: 0.5em;
+}
+
+#PageTitle {
+    	text-align: right;
+	text-shadow: 0 0 1em rgb(0 0 0);
+	padding: 2em;
+	opacity: 0;
+}
+
+#IdentityModule .UserTitle {
+	font-size: medium;
+}
+
+.PageModule>.Content {
+	background-color: #171717;
+	border-radius: 0.5em;
+	box-shadow: 0 0 1em rgb(0 0 0);
+}
+
+spriteIcon, .SpriteIcon {
+	background-image: url('https://files.gamebanana.com/bitpit/download_c4bca.png');
+	filter: grayscale(1);
+}
+
+#ModsOnlineModule .Grid {
+	gap: 1.25em;
+	padding: 0.25em 0.5em 0.25em 0.5em;
+	place-content: center;
+	place-items: center;
+}
+
+#CoreStatsModule ul {
+	margin-right: 0em;
+	padding-bottom: 0em;
+}
+
+#CoreStatsModule .Content {
+	padding: 0.5em 0 0.5em 0;
+}
+
+#MedalsModule ul {
+        margin: 0em 0em 0em 0.5em;
+        text-align: justify;
+}
+
+.RecordsGrid {
+	place-content: center;
+}
+
+#SubNavigator {
+	border-bottom-color: #525252;
+}
+
+#SubNavigator .ActiveEntry {
+	box-shadow: 0 6px 4px -4px var(--DefaultRedColor);
+}
+
+#SubNavigator li spriteIcon {
+	filter: grayscale(1);
+}
+
+button spriteIcon, .ButtonLike spriteIcon {
+	filter: grayscale(1);
+}
+
+.Record .Stats spriteIcon {
+	filter: grayscale(1);
+}
+
+#PrimaryNav {
+	background: #525252;
+	border-bottom-width: 0.125em;
+    	border-bottom-style: solid;
+    	border-bottom-color: #373737;
+}
+
+#SecondaryNav {
+	background: #424242;
+}
+
+#SecondaryNav>wrapper module {
+	border-bottom-width: 0.125em;
+        border-bottom-color: #525252;
+        border-bottom-style: solid;
+}
+
+:where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
+	background: #474747;
+	border-radius: 0.5em;
+}
+
+body {
+	box-shadow: inset 0 0 6em rgb(0 0 0); 
+}
+
+#BodyWrapper {
+	box-shadow: 0 0 6em rgb(0 0 0);
+}
+
+header#MainContentHeader {
+	background: url(https://files.gamebanana.com/bitpit/saberalter.png);
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100%;
+    	height: 400px;
+}
+
+#HeadlineWrapper {
+	height: inherit;
+}
+
+.guard_desc {
+	font-size: var(--DefaultMediumFontSize);
+	text-align: center;
+	font-weight: bold;
+	color: var(--DefaultRedColor);
+}
+
+img.guard_image {
+	filter: initial;
+	margin-left: 5px;
+}
+
+article.RichText {
+	text-align: justify;
+}
+
+:root {
+	--BodyBackground: #171717 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--BodyWrapperBackground: #222222 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--NavPaneBackgroundColor: #222222;
+	--InputBackgroundColor: #474747;
+	--TabBorder: #323232;
+	--TabBackground:#525252;
+	--ButtonBackground: linear-gradient(180deg, #626262, #474747);
+
+}
