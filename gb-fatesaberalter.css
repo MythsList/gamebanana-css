@@ -12,7 +12,7 @@ img {
 	filter: grayscale(1);
 }
 
-a, .Linklike, .Name {
+a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 	color: var(--DefaultGreenColor);
 }
 
