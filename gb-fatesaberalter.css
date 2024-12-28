@@ -12,7 +12,7 @@ img {
 	filter: grayscale(1);
 }
 
-a, .Linklike {
+a, .Linklike, .Name {
 	color: var(--DefaultGreenColor);
 }
 
