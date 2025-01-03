@@ -13,6 +13,16 @@ img {
 	filter: grayscale(1);
 }
 
+img.SacredBanana {
+    content: url('https://mythslist.github.io/gamebanana-css/assets/mythslisticon.png');
+    filter: initial;
+}
+
+.Avatar img {
+    content: url(https://mythslist.github.io/gamebanana-css/assets/misc/sigma-misterbeast.gif);
+    max-width: 50px;
+}
+
 a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 	color: var(--DefaultGreenColor);
 }
