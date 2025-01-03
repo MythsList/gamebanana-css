@@ -13,7 +13,7 @@ img {
 	filter: grayscale(1);
 }
 
-img.SacredBanana, img.Upic, .Avatar img {
+img.SacredBanana {
 	filter: initial;
 }
 
