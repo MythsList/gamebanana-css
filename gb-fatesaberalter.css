@@ -15,7 +15,10 @@ img {
 
 img.SacredBanana {
     content: url('https://mythslist.github.io/gamebanana-css/assets/mythslisticon.png');
-    filter: initial;
+}
+
+img.SacredBanana, img.Upic, .Avatar img {
+	filter: initial;
 }
 
 .Avatar img {
