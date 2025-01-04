@@ -40,8 +40,7 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 }
 
 .AvatarTooltip {
-	border-radius: initial;
-	box-sizing: content-box;
+	border: initial;
 }
 
 .MemberLink indicator.Online {
