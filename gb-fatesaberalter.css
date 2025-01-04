@@ -21,6 +21,10 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 	color: var(--DefaultGreenColor);
 }
 
+.PageModule {
+	border-bottom-style: initial;
+}
+
 .PageModule>h3 {
 	font-size: 1.55em;
 	font-family: var(--ModuleTitleFontFamily);
@@ -33,6 +37,10 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 
 .Avatar.Online:after {
         box-shadow: 0 0 0.75em var(--DefaultGreenColor);
+}
+
+.AvatarTooltip {
+	border-radius: initial;
 }
 
 .MemberLink indicator.Online {
@@ -142,6 +150,10 @@ header#MainContentHeader {
 
 #HeadlineWrapper {
 	height: inherit;
+}
+
+#ContentGrid>row>column:not(:first-child) {
+	border-right: initial;
 }
 
 .guard_desc {
