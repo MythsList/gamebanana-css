@@ -49,10 +49,6 @@ img.SacredBanana {
 	box-shadow: 0 0 1em rgb(0 0 0);
 }
 
-#SubNavigator .ActiveEntry {
-	box-shadow: 0 6px 4px -4px var(--SubNavigatorActiveTabBorderColor);
-}
-
 spriteIcon, .SpriteIcon {
 	background-image: url('https://files.gamebanana.com/bitpit/download_c4bca.png');
 }
