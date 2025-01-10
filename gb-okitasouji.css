@@ -1,0 +1,50 @@
+@import url('https://mythslist.github.io/gamebanana-css/gb-main.css');
+
+:root {
+	--BodyBackground: #0A1626 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--BodyWrapperBackground: #192940 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--NavPaneBackgroundColor: #1A2738;
+	--InputBackgroundColor: #1D4167;
+	--TabBorder: #3B5268;
+	--TabBackground: #436D91;
+	--ButtonBackground: linear-gradient(180deg, #508BB3, #29669E);
+}
+
+.PageModule>.Content {
+	background-color: #4A739A;
+	box-shadow: 0 0 1em #4A739A;
+}
+
+a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
+	color: #00ffff;
+}
+
+#SubNavigator {
+	border-bottom-color: #4A739A;
+}
+
+#PrimaryNav {
+	background: #4A739A;
+	border-bottom-width: 0.125em;
+	border-bottom-style: solid;
+	border-bottom-color: #1D4167;
+}
+
+#SecondaryNav {
+	background: #3b5c7b;
+}
+
+stateLabel {
+	background: #507fab;
+}
+
+:where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
+	background: #507fab;
+}
+
+header#MainContentHeader {
+	background: url('https://mythslist.github.io/gamebanana-css/assets/okitasouji.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
