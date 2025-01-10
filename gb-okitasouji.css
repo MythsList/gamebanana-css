@@ -44,11 +44,11 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 }
 
 stateLabel {
-	background: #507fab;
+	background: #192940;
 }
 
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
-	background: #507fab;
+	background: #192940;
 }
 
 .guard_desc {
