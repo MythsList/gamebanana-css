@@ -8,19 +8,28 @@
 	--TabBorder: #3B5268;
 	--TabBackground: #436D91;
 	--ButtonBackground: linear-gradient(180deg, #508BB3, #29669E);
+	--DefaultRedColor: #ACD7E3;
+}
+
+img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon {
+	filter: sepia(1) hue-rotate(180deg);
+}
+
+.UserTitle {
+	background: #1D4167;
 }
 
 .PageModule>.Content {
-	background-color: #4A739A;
-	box-shadow: 0 0 1em #4A739A;
+	background-color: #426587;
+	box-shadow: 0 0 1em #426587;
 }
 
 a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
-	color: #00ffff;
+	color: #bccef0;
 }
 
 #SubNavigator {
-	border-bottom-color: #4A739A;
+	border-bottom-color: #426587;
 }
 
 #PrimaryNav {
@@ -40,6 +49,10 @@ stateLabel {
 
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
 	background: #507fab;
+}
+
+.guard_desc {
+	text-shadow: 0 0 0.2em var(--DefaultRedColor);
 }
 
 header#MainContentHeader {
