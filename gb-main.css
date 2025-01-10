@@ -17,7 +17,7 @@ img.SacredBanana {
 }
 
 .Avatar.Online:after {
-  box-shadow: 0 0 0.75em var(--DefaultGreenColor);
+	box-shadow: 0 0 0.75em var(--DefaultGreenColor);
 }
 
 .MemberLink indicator.Online {
@@ -34,7 +34,7 @@ img.SacredBanana {
 }
 
 #PageTitle {
-  text-align: right;
+	text-align: right;
 	text-shadow: 0 0 1em rgb(0 0 0);
 	padding: 2em;
 	opacity: 0;
@@ -70,8 +70,8 @@ spriteIcon, .SpriteIcon {
 }
 
 #MedalsModule ul {
-  margin: 0em 0em 0em 0.5em;
-  text-align: justify;
+	margin: 0em 0em 0em 0.5em;
+	text-align: justify;
 }
 
 .RecordsGrid {
@@ -88,13 +88,6 @@ spriteIcon, .SpriteIcon {
 
 #BodyWrapper {
 	box-shadow: 0 0 6em rgb(0 0 0);
-}
-
-header#MainContentHeader {
-  background: url('https://mythslist.github.io/gamebanana-css/assets/saberalter.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 #HeadlineWrapper {
