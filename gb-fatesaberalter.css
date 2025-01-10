@@ -31,10 +31,6 @@ spriteIcon, .SpriteIcon {
 	border-bottom-color: #525252;
 }
 
-#SubNavigator .ActiveEntry {
-	box-shadow: 0 6px 4px -4px var(--DefaultRedColor);
-}
-
 #SubNavigator li spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon {
 	filter: grayscale(1);
 }
