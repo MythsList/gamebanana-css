@@ -16,12 +16,12 @@ img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, button spriteIcon, .B
 }
 
 .UserTitle {
-	background: #1D4167;
+	background: #192940;
 }
 
 .PageModule>.Content {
-	background-color: #426587;
-	box-shadow: 0 0 1em #426587;
+	background-color: #3B5268;
+	box-shadow: 0 0 1em #3B5268;
 }
 
 a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
@@ -52,7 +52,7 @@ stateLabel {
 }
 
 .guard_desc {
-	text-shadow: 0 0 0.2em var(--DefaultRedColor);
+	text-shadow: 0 0 0.15em var(--DefaultRedColor);
 }
 
 header#MainContentHeader {
