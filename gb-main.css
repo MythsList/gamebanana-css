@@ -6,6 +6,11 @@ img.SacredBanana {
 	border-bottom-style: initial;
 }
 
+.PageModule>h2 {
+	font-size: 1.55em;
+	font-family: var(--ModuleTitleFontFamily);
+}
+
 .PageModule>h3 {
 	font-size: 1.55em;
 	font-family: var(--ModuleTitleFontFamily);
