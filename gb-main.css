@@ -103,16 +103,18 @@ spriteIcon, .SpriteIcon {
 	border-right: initial;
 }
 
-.guard_desc {
+/*.guard_desc {*/
+h4.bmGuardianSubTitle {
 	font-size: var(--DefaultMediumFontSize);
 	text-align: center;
 	font-weight: bold;
 	color: var(--DefaultRedColor);
 }
 
-img.guard_image {
+/*img.guard_image {*/
+.PageModule.bmGuardian .Content img {
 	filter: initial;
-	margin-left: 5px;
+	/*margin-left: 5px;*/
 }
 
 article.RichText {
