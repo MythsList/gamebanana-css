@@ -1,4 +1,4 @@
-.Avatar img {
+.Avatar img, #SecondaryNav #PersonalNavModule icon img {
 	content: url('https://mythslist.github.io/gamebanana-css/assets/misc/enatalk.gif');
 	max-width: 50px;
 }
