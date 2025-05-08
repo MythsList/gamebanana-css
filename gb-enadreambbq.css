@@ -1,0 +1,69 @@
+@import url('https://mythslist.github.io/gamebanana-css/gb-main.css');
+
+:root {
+	--BodyBackground: #16483f url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--BodyWrapperBackground: #76000c url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--NavPaneBackgroundColor: #76000c;
+	--InputBackgroundColor: #cd2738;
+	--TabBorder: #1c463e;
+	--TabBackground: #125e50;
+	--ButtonBackground: linear-gradient(180deg, #cb2637, #76000c);
+	--DefaultRedColor: #cd2738;
+	--SubNavigatorActiveTabBorderColor: var(--DefaultRedColor);
+	--SubNavigatorActiveTabFontColor: var(--DefaultRedColor);
+}
+
+.Record img, #ResponsibilitiesModule img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon {
+	filter: sepia(1) hue-rotate(85deg);
+}
+
+body .MiniMedal_normal, body .MiniMedal_rare, body .MiniMedal_legendary, body .MiniMedal_titanium, body .MiniMedal_diamond, body .MiniMedal_jam_entry, body .MiniMedal_jam_award {
+	filter: sepia(1) hue-rotate(85deg);
+}
+
+.UserTitle {
+	background: #76000c;
+}
+
+.PageModule>.Content {
+	background-color: #145e50;
+	box-shadow: 0 0 1em #cb2637;
+}
+
+a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
+	color: #ce2738;
+}
+
+#SubNavigator {
+	border-bottom-color: #145f4f;
+}
+
+#PrimaryNav {
+	background: #125e50;
+	border-bottom-width: 0.125em;
+	border-bottom-style: solid;
+	border-bottom-color: #cd2738;
+}
+
+#SecondaryNav {
+	background: #16483f;
+}
+
+stateLabel {
+	background: #16483f;
+}
+
+:where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
+	background: #1f4d44;
+}
+
+.guard_desc {
+	text-shadow: 0 0 0.15em var(--DefaultRedColor);
+}
+
+header#MainContentHeader {
+	background: url('https://mythslist.github.io/gamebanana-css/assets/enadreambbq.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
