@@ -11,9 +11,10 @@
 	--DefaultRedColor: #cd2738;
 	--SubNavigatorActiveTabBorderColor: var(--DefaultRedColor);
 	--SubNavigatorActiveTabFontColor: var(--DefaultRedColor);
+	--LinkHoverColor: #eb3720;
 }
 
-.Record img, #ResponsibilitiesModule img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon {
+.Record img, #ResponsibilitiesModule img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon, img.Upic, .PostFooter {
 	filter: sepia(1) hue-rotate(85deg);
 }
 
@@ -55,6 +56,19 @@ stateLabel {
 
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
 	background: #1f4d44;
+}
+
+.Posts .Post[data-pin-level="3"]>.PostHeader {
+    	background: linear-gradient(#82b390, #0000);
+}
+
+.PostHeader stateLabel[data-label=Submitter] {
+    	color: var(--DefaultRedColor);
+}
+
+.ExtendedContentButton {
+    	background: #0d4d45;
+    	color: var(--DefaultRedColor);
 }
 
 .guard_desc {
