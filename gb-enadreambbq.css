@@ -44,6 +44,7 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 	border-bottom-width: 0.125em;
 	border-bottom-style: solid;
 	border-bottom-color: #cd2738;
+	margin-left: 0.01em;
 }
 
 #SecondaryNav {
@@ -73,6 +74,40 @@ stateLabel {
 
 .guard_desc {
 	text-shadow: 0 0 0.15em var(--DefaultRedColor);
+}
+
+#PageFooter {
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/froggytalk.gif), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+    background-repeat: repeat;
+    background-position-x: center, left;
+    background-position-y: center, top;
+    background-size: 20%, auto;
+    background-attachment: local;
+    background-blend-mode: screen, normal;
+}
+
+module#BuddiesNavModule article.Flow {
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/handsomeguy.gif);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 25%;
+}
+
+module#RemindersNavModule article.Flow {
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/taskimaidendance.gif);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 50%;
+}
+
+module#ManageNavModule article.Flow {
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enameanietalk.gif);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 40%;
 }
 
 header#MainContentHeader {
