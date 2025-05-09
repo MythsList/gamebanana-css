@@ -76,6 +76,14 @@ stateLabel {
 	text-shadow: 0 0 0.15em var(--DefaultRedColor);
 }
 
+body, .lg-outer #lg-dropdown-overlay, #SearchInput, label {
+    cursor: url(https://mythslist.github.io/gamebanana-css/assets/cursor/enadreambbq-point.cur), default;
+}
+
+a, .Linklike, button, .ButtonLike, input[type=range]::-webkit-slider-runnable-track, select, .SelectLike, .BeaconParent .Beacon, .ExpandableToggle, .PageModule>.RelatedLinksButton, .MainForm .InputsWrapper .OptionalInput>legend, fieldset#Userid .AdvancedElement_InputSuggestionsList li, .AdvancedListSettingsModule>.Content .OrderAndSortControls fieldset legend, .AdvancedElement_FloatingButtonTabs li, .AdvancedElement_InputSuggestionsList li, .AdvancedElement_Tabs li, .AdvancedElement_GraphicalSelect .OptionsWrapper .Options li, .AdvancedElement_Switch.List ul li, #MasterLog log .CloseButton, .Modal .CloseModal, .Editor .ViewModeSwitchers span, .Editor .WysiwygPalettes>h4, #PrimaryNav controls, #SecondaryNav controls, body[data-_sDeviceType=desktop][data-_sNavItemActivation=Click] #SecondaryNav module>icon:hover, body[data-_sDeviceType=desktop][data-_sNavItemActivation=Click] #SecondaryNav module>widget:hover, body[data-_sDeviceType=desktop][data-_sNavItemActivation=Click] #PrimaryNav module>icon:hover, body[data-_sDeviceType=desktop][data-_sNavItemActivation=Click] #PrimaryNav module>widget:hover, #HiddenColumnToggleButton, #AlertsNavModule pane .Controls .MarkAllAsSeen, #ActivityNavModule pane .Controls .MarkAllAsSeen, #AlertsNavModule pane .Broadcasts .Unseen .BroadcastStatusWrapper, #ActivityNavModule pane .Broadcasts .Unseen .BroadcastStatusWrapper, #GamesNavModule widget ul li, #BuddiesNavModule pane #BuddyChatInitiators li, .RichText .TableOfContents ul li, #FeaturesSliderModule .Slides .Slide, #FeaturesSliderModule .Slides .ExpandedSlide, #FeaturesSliderModule .Slides .Slide .Info .Name, #FeaturesSliderModule .Slides .ExpandedSlide .Info .Name, #SubmissionsListAdvancedListSettingsModule .RecentGames li, #SubmissionsListAdvancedListSettingsModule .SelectedGames li, #ThanksToggleModule .Content #ShowThanksOptionsToggle.ModalLauncher, #UpdatesModule .ToggleContentButton, .lg-actions .lg-next, .lg-actions .lg-prev, .lg-toolbar .lg-icon, .lg-outer .lg-thumb-item, .lg-outer .lg-toogle-thumb, .lg-outer .lg-video .lg-video-play, .lg-outer .lg-pager-cont, .StrangeBerryModal .CloseButton, .RadioCheckWrapper input, .ContentEditable .Tab, #GamesPane summary, #ManageNavModule summary, .InputWrapper .Tab, .Tab:has(:checked), input:checked+.Tab {
+    cursor: url(https://mythslist.github.io/gamebanana-css/assets/cursor/enadreambbq-hover.cur), pointer;
+}
+
 #PageFooter {
     background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/froggytalk.gif), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
     background-repeat: repeat;
