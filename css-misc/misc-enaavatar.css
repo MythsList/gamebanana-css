@@ -1,4 +1,4 @@
-.Avatar img, #SecondaryNav #PersonalNavModule icon img {
+.Avatar img, #SecondaryNav #PersonalNavModule icon img, #MessagesNavModule .InboxItem .InboxParticipants .Avatar {
 	content: url('https://mythslist.github.io/gamebanana-css/assets/misc/enatalk.gif');
 	max-width: 50px;
 }
