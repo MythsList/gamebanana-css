@@ -147,8 +147,12 @@ module#ManageNavModule article.Flow {
 }
 
 header#MainContentHeader {
-	background: url('https://mythslist.github.io/gamebanana-css/assets/enadreambbq2new.png');
+	background: url(https://mythslist.github.io/gamebanana-css/assets/enadreambbq2new.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+#SiteLogo img {
+  content: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/enabbqlogo.png);
 }
