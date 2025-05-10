@@ -85,7 +85,7 @@ a, .Linklike, button, .ButtonLike, input[type=range]::-webkit-slider-runnable-tr
 }
 
 #PageFooter {
-    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/froggytalk.gif), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/froggytalk.gif), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
     background-repeat: repeat;
     background-position-x: center, left;
     background-position-y: center, top;
@@ -95,7 +95,7 @@ a, .Linklike, button, .ButtonLike, input[type=range]::-webkit-slider-runnable-tr
 }
 
 module#BuddiesNavModule article.Flow {
-    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/handsomeguy.gif);
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/handsomeguy.gif);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -103,7 +103,7 @@ module#BuddiesNavModule article.Flow {
 }
 
 module#RemindersNavModule article.Flow {
-    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/taskimaidendance.gif);
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/taskimaidendance.gif);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -111,11 +111,19 @@ module#RemindersNavModule article.Flow {
 }
 
 module#ManageNavModule article.Flow {
-    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enameanietalk.gif);
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/enameanietalk.gif);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
     background-size: 40%;
+}
+
+[data-theme~=siteMenu] .tippy-content {
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/lonelydoor.png);
+    background-position-x: 10%;
+    background-position-y: 120%;
+    background-size: 10%;
+    background-repeat: no-repeat;
 }
 
 header#MainContentHeader {
