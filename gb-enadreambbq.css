@@ -130,6 +130,7 @@ module#ManageNavModule article.Flow {
     background-repeat: no-repeat;
 }
 
+/*
 .PageModule#OnlineStatusModule>.Content {
     background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/hourglassdog.png);
     background-repeat: no-repeat;
@@ -137,6 +138,7 @@ module#ManageNavModule article.Flow {
     background-position-x: 96%;
     background-position-y: 105%;
 }
+*/
 
 #ContentGrid {
     background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/lanternman.png);
