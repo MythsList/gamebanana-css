@@ -84,6 +84,10 @@ a, .Linklike, button, .ButtonLike, input[type=range]::-webkit-slider-runnable-tr
     cursor: url(https://mythslist.github.io/gamebanana-css/assets/cursor/enadreambbq-hover.cur), pointer;
 }
 
+#ContentGrid row>column {
+	padding-top: 4em;
+}
+
 #PageFooter {
     background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/froggytalk.gif), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
     background-repeat: repeat;
@@ -124,6 +128,22 @@ module#ManageNavModule article.Flow {
     background-position-y: 120%;
     background-size: 10%;
     background-repeat: no-repeat;
+}
+
+.PageModule#OnlineStatusModule>.Content {
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/hourglassdog.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-x: 96%;
+    background-position-y: 105%;
+}
+
+#ContentGrid {
+    background-image: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/lanternman.png);
+    background-repeat: repeat-x;
+    background-position-x: center;
+    background-position-y: -0.1%;
+    background-size: 5%;
 }
 
 header#MainContentHeader {
