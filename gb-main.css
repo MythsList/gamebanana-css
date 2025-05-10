@@ -103,6 +103,10 @@ spriteIcon, .SpriteIcon {
 	border-right: initial;
 }
 
+module#RecentVisitors>h2 {
+    font-size: 1.55em;
+}
+
 /*.guard_desc {*/
 h4.bmGuardianSubTitle {
 	font-size: var(--DefaultMediumFontSize);
