@@ -14,7 +14,7 @@
 	--LinkHoverColor: #eb3720;
 }
 
-.Record img, #ResponsibilitiesModule img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon, img.Upic, .PostFooter {
+.Record img, #ResponsibilitiesModule img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon, img.Upic, .PostFooter, span.stats-icon>img {
 	filter: sepia(1) hue-rotate(85deg);
 }
 
