@@ -57,6 +57,14 @@ spriteIcon, .SpriteIcon {
 	background: #474747;
 }
 
+.Posts .Post[data-pin-level="3"]>.PostHeader {
+    	background: linear-gradient(#e16c6c59, #0000);
+}
+
+.PostHeader stateLabel[data-label=Submitter], .ExtendedContentButton {
+    	color: var(--DefaultRedColor);
+}
+
 h4.bmGuardianSubTitle {
 	text-shadow: 0 0 0.15em var(--DefaultRedColor);
 }
