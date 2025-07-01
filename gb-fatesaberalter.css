@@ -76,8 +76,8 @@ h4.bmGuardianSubTitle {
 }
 
 header#MainContentHeader {
-	background: url('https://mythslist.github.io/gamebanana-css/assets/saberalter.png');
+	background: url('https://mythslist.github.io/gamebanana-css/assets/saberalter2.jpg');
     	background-repeat: no-repeat;
-    	background-position: center;
+    	background-position: top, center;
     	background-size: cover;
 }
