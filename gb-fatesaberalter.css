@@ -11,7 +11,8 @@
 	--SubNavigatorActiveTabBorderColor: var(--DefaultRedColor);
 }
 
-img {
+
+img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, button:hover spriteIcon, .ButtonLike spriteIcon, .ButtonLike:hover spriteIcon, .Record .Stats spriteIcon, img.Upic, .PostFooter, span.stats-icon>img {
 	filter: grayscale(1);
 }
 
@@ -54,6 +55,10 @@ spriteIcon, .SpriteIcon {
 
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
 	background: #474747;
+}
+
+.guard_desc {
+	text-shadow: 0 0 0.15em var(--DefaultGreenColor);
 }
 
 header#MainContentHeader {
