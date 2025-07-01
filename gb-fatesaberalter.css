@@ -9,6 +9,7 @@
 	--TabBackground:#525252;
 	--ButtonBackground: linear-gradient(180deg, #626262, #474747);
 	--SubNavigatorActiveTabBorderColor: var(--DefaultRedColor);
+	--DefaultBlueColor: var(--DefaultRedColor);
 }
 
 
