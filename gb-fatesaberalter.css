@@ -57,10 +57,6 @@ spriteIcon, .SpriteIcon {
 	background: #474747;
 }
 
-.guard_desc {
-	text-shadow: 0 0 0.15em var(--DefaultGreenColor);
-}
-
 header#MainContentHeader {
 	background: url('https://mythslist.github.io/gamebanana-css/assets/saberalter.png');
     	background-repeat: no-repeat;
