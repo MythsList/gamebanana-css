@@ -61,7 +61,12 @@ spriteIcon, .SpriteIcon {
     	background: linear-gradient(#e16c6c59, #0000);
 }
 
-.PostHeader stateLabel[data-label=Submitter], .ExtendedContentButton {
+.PostHeader stateLabel[data-label=Submitter] {
+    	color: var(--DefaultRedColor);
+}
+
+.ExtendedContentButton {
+    	background: #2e1c1c;
     	color: var(--DefaultRedColor);
 }
 
