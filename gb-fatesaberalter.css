@@ -75,8 +75,13 @@ h4.bmGuardianSubTitle {
 	text-shadow: 0 0 0.15em var(--DefaultRedColor);
 }
 
+#SiteLogo img {
+	filter: none;
+	content: url('https://mythslist.github.io/gamebanana-css/assets/fatesaberalter/redlogo.png');
+}
+
 header#MainContentHeader {
-	background: url('https://mythslist.github.io/gamebanana-css/assets/saberalter2.jpg');
+	background: url('https://mythslist.github.io/gamebanana-css/assets/fatesaberalter/saberalter2.jpg');
     	background-repeat: no-repeat;
     	background-position: top, center;
     	background-size: cover;
