@@ -10,9 +10,13 @@
 	--ButtonBackground: linear-gradient(180deg, #546161, #465252);
 	--DefaultBlueColor: #68A9FF;
 	--DefaultRedColor: #FF84EA;
+	--LinkHoverColor: var(--DefaultRedColor);
 	--SubNavigatorActiveTabFontColor: var(--DefaultBlueColor);
 }
 
+#BodyWrapper {
+	box-shadow: 0 0 4em rgb(0 0 0);
+}
 
 img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, button:hover spriteIcon, .ButtonLike spriteIcon, .ButtonLike:hover spriteIcon, .Record .Stats spriteIcon, .PostFooter, span.stats-icon>img {
 	filter: grayscale(1);
@@ -57,14 +61,6 @@ spriteIcon, .SpriteIcon {
 
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
 	background: #465252;
-}
-
-.Avatar.Online:after {
-	box-shadow: 0 0 0.75em var(#FF4E4E);
-}
-
-.MemberLink indicator.Online {
-	box-shadow: 0 0 0.15em var(#FF4E4E);
 }
 
 .Avatar.HasClearanceLevel {

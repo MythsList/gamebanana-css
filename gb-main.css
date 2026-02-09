@@ -84,7 +84,7 @@ spriteIcon, .SpriteIcon {
 }
 
 #SubNavigator .ActiveEntry {
-	box-shadow: 0 6px 4px -4px var(--SubNavigatorActiveTabFontColor);
+	box-shadow: 0 6px 4px -5px var(--SubNavigatorActiveTabFontColor);
 }
 
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
