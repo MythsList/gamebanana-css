@@ -1,126 +1,125 @@
-img.SacredBanana {
-	filter: initial;
+@import url('https://mythslist.github.io/gamebanana-css/gb-main.css');
+
+:root {
+	--BodyBackground: #171717 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--BodyWrapperBackground: #363f3f;
+	--NavPaneBackgroundColor: #222222;
+	--InputBackgroundColor: #465252;
+	--TabBorder: #272d2d;
+	--TabBackground:#546161;
+	--ButtonBackground: linear-gradient(180deg, #546161, #465252);
+	--DefaultBlueColor: #68A9FF;
+	--DefaultRedColor: #FF84EA;
+	--SubNavigatorActiveTabFontColor: var(--DefaultBlueColor);
 }
 
-.PageModule {
-	border-bottom-style: initial;
+
+img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, button:hover spriteIcon, .ButtonLike spriteIcon, .ButtonLike:hover spriteIcon, .Record .Stats spriteIcon, img.Upic, .PostFooter, span.stats-icon>img {
+	filter: grayscale(1);
 }
 
-h2.bmGuardianTitle {
-	font-size: 1.55em;
-	font-family: var(--ModuleTitleFontFamily);
-}
-
-.PageModule>h3 {
-	font-size: 1.55em;
-	font-family: var(--ModuleTitleFontFamily);
-}
-
-.Record .PreviewImage { 
-	object-fit: contain;
-	object-position: center;
-}
-
-.Avatar.Online:after {
-	box-shadow: 0 0 0.75em var(--DefaultGreenColor);
-}
-
-.MemberLink indicator.Online {
-	box-shadow: 0 0 0.15em var(--DefaultGreenColor);
-}
-
-.UserTitle {
-	box-shadow: 0 0 0 0.125em var(--DefaultRedColor),0 0 0.75em var(--DefaultRedColor);
-	color: var(--DefaultRedColor);
-	background: #474747;
-	border-radius: 0.5em;
-	padding: 0.25em 0;
-	margin: 0.5em;
-}
-
-#PageTitle {
-	text-align: right;
-	text-shadow: 0 0 1em rgb(0 0 0);
-	padding: 2em;
-	opacity: 0;
-}
-
-#IdentityModule .UserTitle {
-	font-size: medium;
+a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
+	color: var(--DefaultBlueColor);
 }
 
 .PageModule>.Content {
-	border-radius: 0.5em;
-	box-shadow: 0 0 1em rgb(0 0 0);
+	background-color: #222222;
 }
 
 spriteIcon, .SpriteIcon {
-	background-image: url('https://mythslist.github.io/gamebanana-css/assets/misc/icon_sheet.png');
+	filter: grayscale(1);
 }
 
-#ModsOnlineModule .Grid {
-	gap: 1.25em;
-	padding: 0.25em 0.5em;
-	place-content: center;
-	place-items: center;
+#SubNavigator {
+	border-bottom-color: #546161;
 }
 
-#CoreStatsModule ul {
-	margin-right: 0em;
-	padding-bottom: 0em;
+#SubNavigator li spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon {
+	filter: grayscale(1);
 }
 
-#CoreStatsModule .Content {
-	padding: 0.5em 0;
+#PrimaryNav {
+	background: #546161;
+	border-bottom-width: 0.125em;
+    border-bottom-style: solid;
+    border-bottom-color: #363f3f;
 }
 
-#MedalsModule ul {
-	margin: 0em 0em 0em 0.5em;
-	text-align: justify;
+#SecondaryNav {
+	background: #465252;
 }
 
-.RecordsGrid {
-	place-content: center;
-}
-
-#SubNavigator .ActiveEntry {
-	box-shadow: 0 6px 4px -4px var(--SubNavigatorActiveTabFontColor);
+#SecondaryNav>wrapper module {
+	border-bottom-width: 0.125em;
+    border-bottom-color: #525252;
+    border-bottom-style: solid;
 }
 
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
-	border-radius: 0.5em;
+	background: #465252;
 }
 
-#BodyWrapper {
-	box-shadow: 0 0 6em rgb(0 0 0);
+.Avatar.Online::after {
+	box-shadow: 0 0 0.75em var(#FF4E4E);
 }
 
-#HeadlineWrapper {
-	height: inherit;
+.MemberLink indicator.Online {
+	box-shadow: 0 0 0.15em var(#FF4E4E);
 }
 
-#ContentGrid>row>column:not(:first-child) {
-	border-right: initial;
+#ModsOnlineModule .HasModClearanceLevel::after {
+	box-shadow: 0 0 0.15em var(#FF4E4E);
 }
 
-module#RecentVisitors>h2 {
-    font-size: 1.55em;
+.Avatar.HasClearanceLevel {
+  	box-shadow:
+    0 0 .08em .01em color-mix(in srgb, var(--DefaultRedColor) 90%, var(--DefaultBlueColor) 10%),
+    0 0 .15em .03em color-mix(in srgb, var(--DefaultRedColor) 70%, var(--DefaultBlueColor) 30%),
+    0 0 .25em .06em color-mix(in srgb, var(--DefaultRedColor) 50%, var(--DefaultBlueColor) 50%),
+    0 0 .4em  .1em  color-mix(in srgb, var(--DefaultRedColor) 10%, var(--DefaultBlueColor) 90%),
+    0 0 .6em  .18em var(--DefaultBlueColor);
 }
 
-/*.guard_desc {*/
+#ModsOnlineModule .HasModClearanceLevel {
+    box-shadow:
+    0 0 .08em .01em color-mix(in srgb, var(--DefaultRedColor) 90%, var(--DefaultBlueColor) 10%),
+    0 0 .15em .03em color-mix(in srgb, var(--DefaultRedColor) 70%, var(--DefaultBlueColor) 30%),
+    0 0 .25em .06em color-mix(in srgb, var(--DefaultRedColor) 50%, var(--DefaultBlueColor) 50%),
+    0 0 .4em  .1em  color-mix(in srgb, var(--DefaultRedColor) 10%, var(--DefaultBlueColor) 90%),
+    0 0 .6em  .18em var(--DefaultBlueColor);
+}
+
+.UserTitle {
+	box-shadow:
+    0 0 .08em .01em color-mix(in srgb, var(--DefaultRedColor) 90%, var(--DefaultBlueColor) 10%),
+    0 0 .15em .03em color-mix(in srgb, var(--DefaultRedColor) 70%, var(--DefaultBlueColor) 30%),
+    0 0 .25em .06em color-mix(in srgb, var(--DefaultRedColor) 50%, var(--DefaultBlueColor) 50%),
+    0 0 .4em  .1em  color-mix(in srgb, var(--DefaultRedColor) 10%, var(--DefaultBlueColor) 90%),
+    0 0 .6em  .18em var(--DefaultBlueColor);
+	color: var(--DefaultBlueColor);
+}
+
+.Posts .Post[data-pin-level="3"]>.PostHeader {
+    	background: linear-gradient(#6cd9e159, #0000);
+}
+
+.PostHeader stateLabel[data-label=Submitter] {
+    	color: var(--DefaultBlueColor);
+}
+
+.ExtendedContentButton {
+    	background: #1c2c2e;
+    	color: var(--DefaultBlueColor);
+}
+
 h4.bmGuardianSubTitle {
-	font-size: var(--DefaultMediumFontSize);
-	text-align: center;
-	font-weight: bold;
-	color: var(--DefaultRedColor);
+	color: var(--DefaultBlueColor);
+	text-shadow: 0 0 0.15em var(--DefaultBlueColor);
 }
 
-/*img.guard_image {*/
-.PageModule.bmGuardian .Content img {
-	filter: initial;
-	/*margin-left: 5px;*/
-}
-
-article.RichText {
-	text-align: justify;
+header#MainContentHeader {
+    background: url('https://mythslist.github.io/gamebanana-css/assets/knkryougishiki/ryougishiki.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

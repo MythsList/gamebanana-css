@@ -60,16 +60,16 @@ stateLabel {
 }
 
 .Posts .Post[data-pin-level="3"]>.PostHeader {
-    	background: linear-gradient(#82b390, #0000);
+    background: linear-gradient(#82b390, #0000);
 }
 
 .PostHeader stateLabel[data-label=Submitter] {
-    	color: var(--DefaultRedColor);
+    color: var(--DefaultRedColor);
 }
 
 .ExtendedContentButton {
-    	background: #0d4d45;
-    	color: var(--DefaultRedColor);
+    background: #0d4d45;
+    color: var(--DefaultRedColor);
 }
 
 h4.bmGuardianSubTitle {
@@ -156,5 +156,5 @@ header#MainContentHeader {
 }
 
 #SiteLogo img {
-  content: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/enabbqlogo.png);
+    content: url(https://mythslist.github.io/gamebanana-css/assets/misc/enadreambbq/enabbqlogo.png);
 }

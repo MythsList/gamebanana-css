@@ -40,8 +40,8 @@ spriteIcon, .SpriteIcon {
 #PrimaryNav {
 	background: #525252;
 	border-bottom-width: 0.125em;
-    	border-bottom-style: solid;
-    	border-bottom-color: #373737;
+    border-bottom-style: solid;
+    border-bottom-color: #373737;
 }
 
 #SecondaryNav {
@@ -50,8 +50,8 @@ spriteIcon, .SpriteIcon {
 
 #SecondaryNav>wrapper module {
 	border-bottom-width: 0.125em;
-        border-bottom-color: #525252;
-        border-bottom-style: solid;
+    border-bottom-color: #525252;
+    border-bottom-style: solid;
 }
 
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
@@ -59,16 +59,16 @@ spriteIcon, .SpriteIcon {
 }
 
 .Posts .Post[data-pin-level="3"]>.PostHeader {
-    	background: linear-gradient(#e16c6c59, #0000);
+    background: linear-gradient(#e16c6c59, #0000);
 }
 
 .PostHeader stateLabel[data-label=Submitter] {
-    	color: var(--DefaultRedColor);
+    color: var(--DefaultRedColor);
 }
 
 .ExtendedContentButton {
-    	background: #2e1c1c;
-    	color: var(--DefaultRedColor);
+    background: #2e1c1c;
+    color: var(--DefaultRedColor);
 }
 
 h4.bmGuardianSubTitle {
@@ -82,7 +82,7 @@ h4.bmGuardianSubTitle {
 
 header#MainContentHeader {
 	background: url('https://mythslist.github.io/gamebanana-css/assets/fatesaberalter/saberalter2.jpg');
-    	background-repeat: no-repeat;
-    	background-position: top, center;
-    	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top, center;
+    background-size: cover;
 }
