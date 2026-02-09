@@ -14,8 +14,8 @@
 }
 
 
-img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, button:hover spriteIcon, .ButtonLike spriteIcon, .ButtonLike:hover spriteIcon, .Record .Stats spriteIcon, img.Upic, .PostFooter, span.stats-icon>img {
-	filter: grayscale(0.8);
+img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, button:hover spriteIcon, .ButtonLike spriteIcon, .ButtonLike:hover spriteIcon, .Record .Stats spriteIcon, .PostFooter, span.stats-icon>img {
+	filter: grayscale(1);
 }
 
 a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
@@ -27,7 +27,7 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 }
 
 spriteIcon, .SpriteIcon {
-	filter: grayscale(0.8);
+	filter: grayscale(1);
 }
 
 #SubNavigator {
@@ -35,7 +35,7 @@ spriteIcon, .SpriteIcon {
 }
 
 #SubNavigator li spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon {
-	filter: grayscale(0.8);
+	filter: grayscale(1);
 }
 
 #PrimaryNav {
