@@ -28,6 +28,7 @@ img.AvatarImage, img.Upic {
 
 a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 	color: var(--DefaultBlueColor);
+	text-shadow: 0 0 0.15em;
 }
 
 .PageModule>.Content {
