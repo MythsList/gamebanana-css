@@ -63,17 +63,8 @@ spriteIcon, .SpriteIcon {
 	background: #465252;
 }
 
-.Avatar.HasClearanceLevel {
+.Avatar.HasClearanceLevel, #ModsOnlineModule .Avatar.HasModClearanceLevel, .UserTitle {
     box-shadow:
-    0 0 .08em .01em color-mix(in srgb, var(--DefaultRedColor) 90%, var(--DefaultBlueColor) 10%),
-    0 0 .15em .03em color-mix(in srgb, var(--DefaultRedColor) 70%, var(--DefaultBlueColor) 30%),
-    0 0 .25em .06em color-mix(in srgb, var(--DefaultRedColor) 50%, var(--DefaultBlueColor) 50%),
-    0 0 .4em  .1em  color-mix(in srgb, var(--DefaultRedColor) 10%, var(--DefaultBlueColor) 90%),
-    0 0 .6em  .18em var(--DefaultBlueColor);
-}
-
-.UserTitle {
-	box-shadow:
     0 0 .08em .01em color-mix(in srgb, var(--DefaultRedColor) 90%, var(--DefaultBlueColor) 10%),
     0 0 .15em .03em color-mix(in srgb, var(--DefaultRedColor) 70%, var(--DefaultBlueColor) 30%),
     0 0 .25em .06em color-mix(in srgb, var(--DefaultRedColor) 50%, var(--DefaultBlueColor) 50%),
