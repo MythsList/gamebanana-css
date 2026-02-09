@@ -22,6 +22,10 @@ img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hove
 	filter: grayscale(1);
 }
 
+img.AvatarImage, img.Upic {
+	filter: none;
+}
+
 a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 	color: var(--DefaultBlueColor);
 }
