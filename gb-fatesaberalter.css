@@ -19,6 +19,7 @@ img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hove
 
 a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
 	color: var(--DefaultGreenColor);
+	text-shadow: 0 0 0.15em;
 }
 
 .PageModule>.Content {
@@ -86,3 +87,4 @@ header#MainContentHeader {
     background-position: top, center;
     background-size: cover;
 }
+
