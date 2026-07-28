@@ -1,17 +1,19 @@
 @import url('https://mythslist.github.io/gamebanana-css/gb-main.css');
 
 :root {
-	--BodyBackground: #171717 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
-	--BodyWrapperBackground: #363f3f;
-	--NavPaneBackgroundColor: #222222;
-	--InputBackgroundColor: #465252;
-	--TabBorder: #272d2d;
-	--TabBackground:#546161;
-	--ButtonBackground: linear-gradient(180deg, #546161, #465252);
-	--DefaultBlueColor: #68A9FF;
-	--DefaultRedColor: #FF84EA;
-	--LinkHoverColor: var(--DefaultRedColor);
-	--SubNavigatorActiveTabFontColor: var(--DefaultBlueColor);
+	--BodyBackground: #222622 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--BodyWrapperBackground: #363F36;
+	--NavPaneBackgroundColor: #1D221D;
+	--InputBackgroundColor: #465246;
+	--TabBorder: #272d27;
+	--TabBackground:#546154;
+	--ButtonBackground: linear-gradient(180deg, #546154, #465246);
+	--DefaultBlueColor: #228B22;
+	--DefaultRedColor: #75FF75;
+	--DefaultGreenColor: #FFFFFF;
+	--LinkHoverColor: var(--DefaultBlueColor);
+	--SubNavigatorActiveTabFontColor: var(--DefaultRedColor);
+	--SubNavigatorActiveTabBorderColor: var(--DefaultRedColor);
 }
 
 #BodyWrapper {
@@ -19,28 +21,24 @@
 }
 
 img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, button:hover spriteIcon, .ButtonLike spriteIcon, .ButtonLike:hover spriteIcon, .Record .Stats spriteIcon, .PostFooter, span.stats-icon>img {
-	filter: grayscale(1);
+	filter: sepia(1) hue-rotate(30deg) brightness(0.85) contrast(1.05);
 }
 
 img.AvatarImage, .Avatar img, img.Upic {
 	filter: none;
 }
 
-a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink {
-	color: var(--DefaultBlueColor);
-	text-shadow: 0 0 0.15em;
+a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianSubTitle {
+	color: var(--DefaultRedColor);
+	text-shadow: 0 0 0.15em color-mix(in srgb, currentColor 85%, white);
 }
 
 .PageModule>.Content {
-	background-color: #222222;
-}
-
-spriteIcon, .SpriteIcon {
-	filter: grayscale(1);
+	background-color: #222622;
 }
 
 #SubNavigator {
-	border-bottom-color: #546161;
+	border-bottom-color: #546154;
 }
 
 #SubNavigator li spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon {
@@ -48,14 +46,14 @@ spriteIcon, .SpriteIcon {
 }
 
 #PrimaryNav {
-	background: #546161;
+	background: #546154;
 	border-bottom-width: 0.125em;
     border-bottom-style: solid;
-    border-bottom-color: #363f3f;
+    border-bottom-color: #363f36;
 }
 
 #SecondaryNav {
-	background: #465252;
+	background: #465246;
 }
 
 #SecondaryNav>wrapper module {
@@ -65,7 +63,7 @@ spriteIcon, .SpriteIcon {
 }
 
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
-	background: #465252;
+	background: #465246;
 }
 
 .Avatar.HasClearanceLevel, #ModsOnlineModule .Avatar.HasModClearanceLevel, .UserTitle {
@@ -78,7 +76,7 @@ spriteIcon, .SpriteIcon {
 }
 
 .Posts .Post[data-pin-level="3"]>.PostHeader {
-    background: linear-gradient(#6cd9e159, #0000);
+    background: linear-gradient(#6cd96c59, #0000);
 }
 
 .PostHeader stateLabel[data-label=Submitter] {
@@ -86,17 +84,12 @@ spriteIcon, .SpriteIcon {
 }
 
 .ExtendedContentButton {
-    background: #1c2c2e;
+    background: #1C2C1C;
     color: var(--DefaultBlueColor);
 }
 
-h4.bmGuardianSubTitle {
-	color: var(--DefaultBlueColor);
-	text-shadow: 0 0 0.15em var(--DefaultBlueColor);
-}
-
 header#MainContentHeader {
-    background: url('https://mythslist.github.io/gamebanana-css/assets/knkryougishiki/ryougishiki.jpg');
+    background: url('https://mythslist.github.io/gamebanana-css/assets/lainthewired/lain.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

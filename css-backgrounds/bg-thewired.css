@@ -1,0 +1,8 @@
+body {
+    background: url('https://mythslist.github.io/gamebanana-css/assets/lainthewired/thewired.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
