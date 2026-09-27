@@ -66,35 +66,52 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianS
 	background: #465246;
 }
 
-.Avatar.HasClearanceLevel, #ModsOnlineModule .Avatar.HasModClearanceLevel, .UserTitle {
-    box-shadow:
-    0 0 .08em .01em color-mix(in srgb, var(--DefaultRedColor) 90%, var(--DefaultBlueColor) 10%),
-    0 0 .15em .03em color-mix(in srgb, var(--DefaultRedColor) 70%, var(--DefaultBlueColor) 30%),
-    0 0 .25em .06em color-mix(in srgb, var(--DefaultRedColor) 50%, var(--DefaultBlueColor) 50%),
-    0 0 .4em  .1em  color-mix(in srgb, var(--DefaultRedColor) 10%, var(--DefaultBlueColor) 90%),
-    0 0 .6em  .18em var(--DefaultBlueColor);
-}
-
-.Posts .Post[data-pin-level="3"]>.PostHeader {
-    background: linear-gradient(#6cd96c59, #0000);
-}
-
-.PostHeader stateLabel[data-label=Submitter] {
-    color: var(--DefaultBlueColor);
-}
-
-.ExtendedContentButton {
-    background: #1C2C1C;
-    color: var(--DefaultBlueColor);
+header#MainContentHeader {
+    background: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/wall.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 header#MainContentHeader {
-    background: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/wall.png');
+    background: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/fence.png');
     background-repeat: repeat-x;
-    background-position: left;
+    background-position: bottom;
     background-size: contain;
 }
 
 * {
   cursor: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/cursor.cur'), auto !important;
+}
+
+.AvatarImage, .Avatar {
+	border-radius: 35%;
+}
+
+.Avatar.Online::after {
+	z-index: 2;
+}
+
+.Avatar::before, .Avatar.Online::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/frame.png');
+	background-size: 100% 100%;
+	pointer-events: none;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+	z-index: 1;
+}
+
+.Avatar.HasClearanceLevel, #ModsOnlineModule .Avatar.HasModClearanceLevel, .UserTitle {
+    box-shadow: none;
+}
+
+.Avatar.HasClearanceLevel::before, #ModsOnlineModule .Avatar.HasModClearanceLevel::before {
+    box-shadow: 0 0 0 .125em var(--DefaultRedColor), 0 0 .75em var(--DefaultRedColor);
+	border-radius: 15%
 }
