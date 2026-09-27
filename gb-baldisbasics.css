@@ -1,0 +1,100 @@
+@import url('https://mythslist.github.io/gamebanana-css/gb-main.css');
+
+:root {
+	--DefaultTextFontFamily: "Comic Sans MS", "Comic Sans", cursive;
+    --DefaultTechnicalFontFamily: "Comic Sans MS", "Comic Sans", cursive;
+	--BodyBackground: #222622 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--BodyWrapperBackground: #363F36;
+	--NavPaneBackgroundColor: #1D221D;
+	--InputBackgroundColor: #465246;
+	--TabBorder: #272d27;
+	--TabBackground:#546154;
+	--ButtonBackground: linear-gradient(180deg, #546154, #465246);
+	--DefaultBlueColor: #228B22;
+	--DefaultRedColor: #75FF75;
+	--DefaultGreenColor: #B8FFB8;
+	--LinkHoverColor: var(--DefaultBlueColor);
+	--SubNavigatorActiveTabFontColor: var(--DefaultRedColor);
+	--SubNavigatorActiveTabBorderColor: var(--DefaultRedColor);
+}
+
+#BodyWrapper {
+	box-shadow: 0 0 4em rgb(0 0 0);
+}
+
+#PageTitle {
+	text-align: left;
+	padding: 1em;
+	opacity: 1;
+}
+
+a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianSubTitle {
+	color: var(--DefaultRedColor);
+	text-shadow: 0 0 0.15em color-mix(in srgb, currentColor 85%, white);
+}
+
+.PageModule>.Content {
+	background-color: #222622;
+}
+
+#SubNavigator {
+	border-bottom-color: #546154;
+}
+
+#SubNavigator li spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon {
+	filter: grayscale(1);
+}
+
+#PrimaryNav {
+	background: #546154;
+	border-bottom-width: 0.125em;
+    border-bottom-style: solid;
+    border-bottom-color: #363f36;
+}
+
+#SecondaryNav {
+	background: #465246;
+}
+
+#SecondaryNav>wrapper module {
+	border-bottom-width: 0.125em;
+    border-bottom-color: #525252;
+    border-bottom-style: solid;
+}
+
+:where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
+	background: #465246;
+}
+
+.Avatar.HasClearanceLevel, #ModsOnlineModule .Avatar.HasModClearanceLevel, .UserTitle {
+    box-shadow:
+    0 0 .08em .01em color-mix(in srgb, var(--DefaultRedColor) 90%, var(--DefaultBlueColor) 10%),
+    0 0 .15em .03em color-mix(in srgb, var(--DefaultRedColor) 70%, var(--DefaultBlueColor) 30%),
+    0 0 .25em .06em color-mix(in srgb, var(--DefaultRedColor) 50%, var(--DefaultBlueColor) 50%),
+    0 0 .4em  .1em  color-mix(in srgb, var(--DefaultRedColor) 10%, var(--DefaultBlueColor) 90%),
+    0 0 .6em  .18em var(--DefaultBlueColor);
+}
+
+.Posts .Post[data-pin-level="3"]>.PostHeader {
+    background: linear-gradient(#6cd96c59, #0000);
+}
+
+.PostHeader stateLabel[data-label=Submitter] {
+    color: var(--DefaultBlueColor);
+}
+
+.ExtendedContentButton {
+    background: #1C2C1C;
+    color: var(--DefaultBlueColor);
+}
+
+header#MainContentHeader {
+    background: url('https://mythslist.github.io/gamebanana-css/assets/lainthewired/lain.jpg');
+    background-repeat: repeat-x;
+    background-position: left;
+    background-size: contain;
+}
+
+* {
+  cursor: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/cursor.cur'), auto !important;
+}
