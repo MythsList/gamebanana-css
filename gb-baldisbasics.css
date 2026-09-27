@@ -65,6 +65,14 @@ a, h2, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuard
     border-bottom-style: solid;
 }
 
+.PageModule>.Content {
+	border-radius: 0%;
+	background: scr('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/chalkboard.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
 	background: #474747;
 }
