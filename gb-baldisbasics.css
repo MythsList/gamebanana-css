@@ -3,6 +3,9 @@
 :root {
 	--DefaultTextFontFamily: "Comic Sans MS", "Comic Sans", cursive;
     --DefaultTechnicalFontFamily: "Comic Sans MS", "Comic Sans", cursive;
+	--ModuleTitleFontFamily: "Comic Sans MS", "Comic Sans", cursive;
+	--NavPaneTitleFontFamily: "Comic Sans MS", "Comic Sans", cursive;
+	--ButtonFontFamily: "Comic Sans MS", "Comic Sans", cursive;
 	--BodyBackground: #222222 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
 	--BodyWrapperBackground: #00000087;
 	--NavPaneBackgroundColor: #575757;
@@ -37,8 +40,8 @@ body {
 	text-shadow: 0 0 0.15em color-mix(in srgb, black 50%, rgba(255, 255, 255, 0));
 }
 
-a, p, span, h2, h4, .Linklike, .RedColor, .GreenColor, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianSubTitle {
-	text-shadow: 0 0 0.15em color-mix(in srgb, currentcolor 100%, rgb(255, 255, 255, 0));
+a, p, li, span, h2, h4, itemCount, small, .PostHeader time, .Linklike, .RedColor, .GreenColor, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianSubTitle {
+	text-shadow: 0 0 0.15em color-mix(in srgb, black 100%, rgb(255, 255, 255, 0));
 }
 
 .UserTitle {
@@ -73,20 +76,42 @@ a, p, span, h2, h4, .Linklike, .RedColor, .GreenColor, .Name, #PageFooter #Impor
 	background: #777777;
 }
 
+#SiteMenu .SiteNav {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+	text-align: center;
+	padding-bottom: 3em;
+}
+
+#SiteMenu .Links {
+    align-items: center;
+	text-align: center;
+}
+
+.MainLinks {
+    justify-content: center;
+    padding-top: 3em;
+    text-align: center;
+}
+
 [data-theme~=siteMenu] .tippy-content {
-    background-image: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/chalkboard.png');
-    background-repeat: no-repeat;
+    background: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/chalkboard.png');
+	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-color: transparent;
 	image-rendering: pixelated;
 }
 
 #PageFooter {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/chalkboard.png'), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/wall.png');
-	background-repeat: repeat, no-repeat, repeat;
+	background: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/chalkboard.png'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/wall.png');
+	background-repeat: no-repeat, repeat, repeat;
 	background-position: center;
-	background-size: contain, auto 90%, auto;
-	image-rendering: pixelated, pixelated;
+	background-size: auto 90%, contain, auto;
+	image-rendering: pixelated;
 	padding-top: 5em !important;
 	padding-bottom: 5em !important;
 }
@@ -106,11 +131,15 @@ h4.bmGuardianSubTitle {
 }
 
 header#MainContentHeader {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/fence.png'), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/wall.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/fence.png'), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/sky.png');
     background-repeat: repeat, repeat-x, repeat;
     background-position: center, bottom, center;
     background-size: contain, auto 75%, contain;
 	image-rendering: pixelated;
+}
+
+.PostHeader stateLabel[data-label=Submitter], .ExtendedContentButton {
+    background: var(--NavPaneBackgroundColor);
 }
 
 * {
