@@ -3,42 +3,45 @@
 :root {
 	--DefaultTextFontFamily: "Comic Sans MS", "Comic Sans", cursive;
     --DefaultTechnicalFontFamily: "Comic Sans MS", "Comic Sans", cursive;
-	--BodyBackground: #222622 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
-	--BodyWrapperBackground: #363F36;
-	--NavPaneBackgroundColor: #1D221D;
-	--InputBackgroundColor: #465246;
-	--TabBorder: #272d27;
-	--TabBackground:#546154;
-	--ButtonBackground: linear-gradient(180deg, #546154, #465246);
-	--DefaultBlueColor: #228B22;
-	--DefaultRedColor: #75FF75;
-	--DefaultGreenColor: #B8FFB8;
-	--LinkHoverColor: var(--DefaultBlueColor);
-	--SubNavigatorActiveTabFontColor: var(--DefaultRedColor);
-	--SubNavigatorActiveTabBorderColor: var(--DefaultRedColor);
+	--BodyBackground: #222222 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+	--BodyWrapperBackground: #222222;
+	--NavPaneBackgroundColor: #222222;
+	--InputBackgroundColor: #474747;
+	--TabBorder: #323232;
+	--TabBackground:#525252;
+	--ButtonBackground: linear-gradient(180deg, #626262, #474747);
 }
 
 #BodyWrapper {
 	box-shadow: 0 0 4em rgb(0 0 0);
 }
 
+body {
+    background: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/wall.png');
+    background-position: center;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
 #PageTitle {
 	text-align: left;
 	padding: 1em;
 	opacity: 1;
+	text-shadow: 0 0 0.15em color-mix(in srgb, black 50%, white);
 }
 
-a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianSubTitle {
-	color: var(--DefaultRedColor);
+a, h2, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianSubTitle {
 	text-shadow: 0 0 0.15em color-mix(in srgb, currentColor 85%, white);
 }
 
 .PageModule>.Content {
-	background-color: #222622;
+	background-color: #171717;
 }
 
 #SubNavigator {
-	border-bottom-color: #546154;
+	border-bottom-color: #525252;
 }
 
 #SubNavigator li spriteIcon, button spriteIcon, .ButtonLike spriteIcon, .Record .Stats spriteIcon {
@@ -46,14 +49,14 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianS
 }
 
 #PrimaryNav {
-	background: #546154;
+	background: #525252;
 	border-bottom-width: 0.125em;
     border-bottom-style: solid;
-    border-bottom-color: #363f36;
+    border-bottom-color: #373737;
 }
 
 #SecondaryNav {
-	background: #465246;
+	background: #424242;
 }
 
 #SecondaryNav>wrapper module {
@@ -63,28 +66,25 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianS
 }
 
 :where(#ResponsibilitiesModule,#CoreStatsModule) .Card {
-	background: #465246;
+	background: #474747;
+}
+
+h4.bmGuardianSubTitle {
+	color: white;
 }
 
 header#MainContentHeader {
-    background: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/wall.png');
-    background-repeat: repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-header#MainContentHeader {
-    background: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/fence.png');
-    background-repeat: repeat-x;
-    background-position: bottom;
-    background-size: contain;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/fence.png'), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/wall.png');
+    background-repeat: repeat, repeat-x, repeat;
+    background-position: center, bottom, center;
+    background-size: contain, auto 75%, contain;
 }
 
 * {
   cursor: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/cursor.cur'), auto !important;
 }
 
-.AvatarImage, .Avatar {
+.Avatar img {
 	border-radius: 35%;
 }
 
@@ -112,6 +112,6 @@ header#MainContentHeader {
 }
 
 .Avatar.HasClearanceLevel::before, #ModsOnlineModule .Avatar.HasModClearanceLevel::before {
-    box-shadow: 0 0 0 .125em var(--DefaultRedColor), 0 0 .75em var(--DefaultRedColor);
+    box-shadow: 0 0 0 .125em var(--DefaultGreenColor), 0 0 .75em var(--DefaultGreenColor);
 	border-radius: 15%
 }
