@@ -130,7 +130,7 @@ h4.bmGuardianSubTitle {
 	content: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/greenlogo.png');
 }
 
-img.SacredBanana {
+#SiteLogo img.SacredBanana {
     content: url('https://images.gamebanana.com/static/img/banana.png');
 }
 
