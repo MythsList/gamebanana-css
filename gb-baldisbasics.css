@@ -130,12 +130,28 @@ h4.bmGuardianSubTitle {
 	content: url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/greenlogo.png');
 }
 
+img.SacredBanana {
+    content: url('https://images.gamebanana.com/static/img/banana.png');
+}
+
+module#StudioModule .Content {
+    text-align: center;
+}
+
+#ContentGrid row {
+	justify-content: center;
+}
+
 header#MainContentHeader {
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/fence.png'), url('https://mythslist.github.io/gamebanana-css/assets/baldisbasics/sky.png');
     background-repeat: repeat, repeat-x, repeat-x;
     background-position: center, center  bottom -2px, center;
     background-size: contain, auto 75%, cover;
 	image-rendering: pixelated;
+}
+
+header#MainContentHeader img, #PageBackground {
+    opacity: 0;
 }
 
 .PostHeader stateLabel[data-label=Submitter], .ExtendedContentButton {
