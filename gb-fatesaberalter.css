@@ -81,6 +81,10 @@ h4.bmGuardianSubTitle {
 	content: url('https://mythslist.github.io/gamebanana-css/assets/fatesaberalter/redlogo.png');
 }
 
+#SiteLogo img.SacredBanana {
+    content: url('https://images.gamebanana.com/static/img/banana.png');
+}
+
 header#MainContentHeader {
 	background: url('https://mythslist.github.io/gamebanana-css/assets/fatesaberalter/saberalter2.jpg');
     background-repeat: no-repeat;
